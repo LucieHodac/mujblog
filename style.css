@@ -1,0 +1,39 @@
+.wrap {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  margin: 0;
+  max-width: 1100px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main {
+  height: 100%;
+  display: flex;
+}
+header {
+  background-color: rgb(162, 27, 4);
+  height: 100px;
+  padding: 1rem;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  font-weight: 550;
+}
+aside {
+  background-color: rgb(239, 141, 124);
+  padding: 1rem;
+  min-width: 200px;
+  color: rgb(124, 21, 3);
+}
+section {
+  max-width: 1000px;
+  color: rgb(77, 16, 5);
+}
+.obrazek {
+  size-adjust: 100px;
+}
+footer {
+  background-color: rgb(239, 141, 124);
+  height: 50px;
+  padding: 1rem;
+  color: rgb(77, 16, 5);
+}
